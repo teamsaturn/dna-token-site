@@ -120,9 +120,14 @@ const Home = () => (
       </div>
 
       <div className="text-center">
-        <button className="bg-green-600 hover:bg-green-500 text-white font-bold py-4 px-8 rounded mb-4">
-          <GlitchText text="Buy $DNA - Soon" interval={9000} />
-        </button>
+        <a 
+          href="https://pump.fun/coin/FJE2RGgf53QdVu4TtkYvfLXmm5MhR1mqoYzx4WRJpump" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="inline-block bg-green-600 hover:bg-green-500 text-white font-bold py-4 px-8 rounded mb-4 transition-colors"
+        >
+          <GlitchText text="Buy $DNA" interval={9000} />
+        </a>
         <p className="text-sm text-gray-500">
           <GlitchText text="*Definition of human may vary. Not financial advice. DYOR." interval={16000} />
         </p>
